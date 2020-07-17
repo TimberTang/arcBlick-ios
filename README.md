@@ -14,3 +14,6 @@
 7. Select a iOS simulator 
 8. run and review
 
+
+## Screen
+[Detail](https://github.com/TimberTang/arcBlock-ios/blob/master/ArcBlock/ArcBlock/System/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-07-17%20at%2014.16.45.png)
