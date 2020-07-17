@@ -12,6 +12,7 @@ import SnapKit
 class WebViewViewController: UIViewController {
 
     var webView: WKWebView!
+    var progressView: UIProgressView!
     var url: String?
     var webTitle: String?
     
@@ -44,6 +45,21 @@ class WebViewViewController: UIViewController {
         webView.load(request)
     }
     
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "estimatedProgress"{
+            progressView.setProgress(Float(webView.estimatedProgress), animated: true)
+            if webView.estimatedProgress >= 1.0 {
+                UIView.animate(withDuration: 0.3, delay: 0.1, options: .curveEaseOut, animations: {                    self.progressView.alpha = 0
+                }, completion: { (finish) in
+                    self.progressView.setProgress(0.0, animated: false)
+                })
+            }
+        }
+        if keyPath == "title" {
+            navigationItem.title = self.webView.title
+        }
+    }
+    
 }
 
 
@@ -60,10 +76,35 @@ fileprivate extension WebViewViewController {
         webView.snp.makeConstraints { (make) in
             make.edges.equalTo(0)
         }
+        
+        //进度条初始化
+        let progressView = UIProgressView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 2))
+        progressView.backgroundColor = UIColor.blue;
+        progressView.tintColor = UIColor.blue
+        //设置进度条的高度，下面这句代码表示进度条的宽度变为原来的1倍，高度变为原来的1.5倍.
+        progressView.transform = CGAffineTransform(scaleX: 1.0, y: 1.5);
+        view.addSubview(progressView)
+        self.progressView = progressView
+        progressView.snp.makeConstraints { (make) in
+            make.leading.trailing.top.equalTo(0)
+            make.height.equalTo(2)
+        }
+        webView.addObserver(self, forKeyPath: "estimatedProgress", options: .new, context: nil)
+        webView.addObserver(self, forKeyPath: "title", options: .new, context: nil)
     }
 }
 
 
 extension WebViewViewController: WKNavigationDelegate, WKUIDelegate {
-    
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        self.progressView.isHidden = false
+        self.progressView.transform = CGAffineTransform(scaleX: 1, y: 1.5)
+        self.view.bringSubviewToFront(self.progressView)
+    }
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        self.progressView.isHidden = true
+    }
+    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+        self.progressView.isHidden = true
+    }
 }

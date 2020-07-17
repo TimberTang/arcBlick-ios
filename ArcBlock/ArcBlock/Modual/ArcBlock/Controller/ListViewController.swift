@@ -63,6 +63,17 @@ class ListViewController: UITableViewController {
         return .init()
         
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let arcItem = dataSource[indexPath.row]
+        if arcItem.type == .textLink {
+            let webVC = WebViewViewController(arcItem.link, webTitle: "")
+            navigationController?.pushViewController(webVC, animated: true)
+            return
+        }
+        let detailVC = DetailViewViewController(with: arcItem)
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
 
 }
 

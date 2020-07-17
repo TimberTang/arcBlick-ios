@@ -35,6 +35,12 @@
 		C97C6D9A24C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D9824C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib */; };
 		C97C6D9D24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D9B24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift */; };
 		C97C6D9E24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D9C24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib */; };
+		C97C6DA324C17670009BB2A4 /* DetailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6DA124C17670009BB2A4 /* DetailViewViewController.swift */; };
+		C97C6DA424C17670009BB2A4 /* DetailViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6DA224C17670009BB2A4 /* DetailViewViewController.xib */; };
+		C97C6DA924C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C6DA524C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png */; };
+		C97C6DAA24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C6DA624C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png */; };
+		C97C6DAB24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C6DA724C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png */; };
+		C97C6DAC24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C6DA824C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png */; };
 		F6C7BA6F5EC93D171AD985A9 /* Pods_ArcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1960AE869142B132F6FF3EA9 /* Pods_ArcBlock.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +101,12 @@
 		C97C6D9824C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcMutipleImageTableViewCell.xib; sourceTree = "<group>"; };
 		C97C6D9B24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMutipleImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		C97C6D9C24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcMutipleImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		C97C6DA124C17670009BB2A4 /* DetailViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewViewController.swift; sourceTree = "<group>"; };
+		C97C6DA224C17670009BB2A4 /* DetailViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewViewController.xib; sourceTree = "<group>"; };
+		C97C6DA524C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png"; sourceTree = "<group>"; };
+		C97C6DA624C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png"; sourceTree = "<group>"; };
+		C97C6DA724C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png"; sourceTree = "<group>"; };
+		C97C6DA824C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png"; sourceTree = "<group>"; };
 		E13B7051CC8C216F8FA13DB3 /* Pods-ArcBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlock/Pods-ArcBlock.debug.xcconfig"; sourceTree = "<group>"; };
 		E99E9342C5C28200846B6C26 /* Pods-ArcBlock-ArcBlockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,7 +232,7 @@
 		C97C6D6424C151E2009BB2A4 /* Modual */ = {
 			isa = PBXGroup;
 			children = (
-				C97C6D6624C1542D009BB2A4 /* ArcList */,
+				C97C6D6624C1542D009BB2A4 /* ArcBlock */,
 				C97C6D5D24C150D5009BB2A4 /* Splash */,
 			);
 			path = Modual;
@@ -229,6 +241,10 @@
 		C97C6D6524C151F0009BB2A4 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				C97C6DA824C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png */,
+				C97C6DA524C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png */,
+				C97C6DA724C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png */,
+				C97C6DA624C17A67009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png */,
 				C97C6D9524C163D0009BB2A4 /* image001.png */,
 				C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */,
 				C97C6D3024C14C7F009BB2A4 /* Main.storyboard */,
@@ -239,20 +255,22 @@
 			path = System;
 			sourceTree = "<group>";
 		};
-		C97C6D6624C1542D009BB2A4 /* ArcList */ = {
+		C97C6D6624C1542D009BB2A4 /* ArcBlock */ = {
 			isa = PBXGroup;
 			children = (
 				C97C6D6F24C15755009BB2A4 /* View */,
 				C97C6D6824C15453009BB2A4 /* Model */,
 				C97C6D6724C15448009BB2A4 /* Controller */,
 			);
-			path = ArcList;
+			path = ArcBlock;
 			sourceTree = "<group>";
 		};
 		C97C6D6724C15448009BB2A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				C97C6D2E24C14C7F009BB2A4 /* ListViewController.swift */,
+				C97C6DA124C17670009BB2A4 /* DetailViewViewController.swift */,
+				C97C6DA224C17670009BB2A4 /* DetailViewViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -418,17 +436,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97C6DAC24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.45.png in Resources */,
 				C97C6D9624C163D0009BB2A4 /* image001.png in Resources */,
 				C97C6D3724C14C80009BB2A4 /* LaunchScreen.storyboard in Resources */,
 				C97C6D3424C14C80009BB2A4 /* Assets.xcassets in Resources */,
 				C97C6D3224C14C7F009BB2A4 /* Main.storyboard in Resources */,
 				C97C6D6A24C15464009BB2A4 /* data.json in Resources */,
 				C97C6D8724C15998009BB2A4 /* ArcLinkTableViewCell.xib in Resources */,
+				C97C6DA424C17670009BB2A4 /* DetailViewViewController.xib in Resources */,
 				C97C6D6224C150EF009BB2A4 /* splash.json in Resources */,
+				C97C6DAA24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.18.27.png in Resources */,
 				C97C6D8B24C15AFE009BB2A4 /* ArcImageTableViewCell.xib in Resources */,
+				C97C6DA924C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.16.50.png in Resources */,
 				C97C6D9A24C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib in Resources */,
 				C97C6D8324C1598B009BB2A4 /* ArcTextTableViewCell.xib in Resources */,
 				C97C6D9E24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib in Resources */,
+				C97C6DAB24C17A68009BB2A4 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-17 at 14.17.04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +591,7 @@
 				C97C6D2B24C14C7F009BB2A4 /* AppDelegate.swift in Sources */,
 				C97C6D9D24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift in Sources */,
 				C97C6D9024C161E1009BB2A4 /* UIView+Extension.swift in Sources */,
+				C97C6DA324C17670009BB2A4 /* DetailViewViewController.swift in Sources */,
 				C97C6D6E24C154A5009BB2A4 /* ArcItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
