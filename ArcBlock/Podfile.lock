@@ -1,3 +1,52 @@
-PODFILE CHECKSUM: f675a15dca2f7fab21e539a1c1d913e66904992e
+PODS:
+  - ActiveLabel (1.1.0)
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
+  - KingfisherWebP (0.7.0):
+    - Kingfisher (~> 5.8)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - lottie-ios (3.1.8)
+  - SnapKit (5.0.1)
+  - SwiftMessages (8.0.0):
+    - SwiftMessages/App (= 8.0.0)
+  - SwiftMessages/App (8.0.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - KingfisherWebP (~> 0.7.0)
+  - lottie-ios
+  - SnapKit
+  - SwiftMessages (~> 8.0)
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - lottie-ios
+    - SnapKit
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftMessages: 29e7975b1173fd4e8357600c6518b5a59bc607d6
+
+PODFILE CHECKSUM: 474512e455fe4c694d1e226fdbf00bea455ff16d
 
 COCOAPODS: 1.9.1

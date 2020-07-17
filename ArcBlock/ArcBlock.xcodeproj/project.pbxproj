@@ -3,20 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4A6F20B37DF80188AD88336F /* Pods_ArcBlockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245EEB6888F2A5FB501D4DBD /* Pods_ArcBlockTests.framework */; };
 		6623D30757B94BEA38DE3251 /* Pods_ArcBlock_ArcBlockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31230563205C920E52A2B04D /* Pods_ArcBlock_ArcBlockUITests.framework */; };
 		C97C6D2B24C14C7F009BB2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */; };
-		C97C6D2D24C14C7F009BB2A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D2C24C14C7F009BB2A4 /* SceneDelegate.swift */; };
-		C97C6D2F24C14C7F009BB2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D2E24C14C7F009BB2A4 /* ViewController.swift */; };
+		C97C6D2F24C14C7F009BB2A4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D2E24C14C7F009BB2A4 /* ListViewController.swift */; };
 		C97C6D3224C14C7F009BB2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D3024C14C7F009BB2A4 /* Main.storyboard */; };
 		C97C6D3424C14C80009BB2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D3324C14C80009BB2A4 /* Assets.xcassets */; };
 		C97C6D3724C14C80009BB2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D3524C14C80009BB2A4 /* LaunchScreen.storyboard */; };
 		C97C6D4224C14C80009BB2A4 /* ArcBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D4124C14C80009BB2A4 /* ArcBlockTests.swift */; };
 		C97C6D4D24C14C80009BB2A4 /* ArcBlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D4C24C14C80009BB2A4 /* ArcBlockUITests.swift */; };
+		C97C6D5F24C150E0009BB2A4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D5E24C150E0009BB2A4 /* SplashViewController.swift */; };
+		C97C6D6224C150EF009BB2A4 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D6124C150EF009BB2A4 /* splash.json */; };
+		C97C6D6A24C15464009BB2A4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D6924C15464009BB2A4 /* data.json */; };
+		C97C6D6C24C15492009BB2A4 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D6B24C15492009BB2A4 /* ResponseData.swift */; };
+		C97C6D6E24C154A5009BB2A4 /* ArcItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D6D24C154A5009BB2A4 /* ArcItem.swift */; };
+		C97C6D8224C1598B009BB2A4 /* ArcTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8024C1598B009BB2A4 /* ArcTextTableViewCell.swift */; };
+		C97C6D8324C1598B009BB2A4 /* ArcTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D8124C1598B009BB2A4 /* ArcTextTableViewCell.xib */; };
+		C97C6D8624C15998009BB2A4 /* ArcLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8424C15998009BB2A4 /* ArcLinkTableViewCell.swift */; };
+		C97C6D8724C15998009BB2A4 /* ArcLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D8524C15998009BB2A4 /* ArcLinkTableViewCell.xib */; };
+		C97C6D8A24C15AFE009BB2A4 /* ArcImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8824C15AFE009BB2A4 /* ArcImageTableViewCell.swift */; };
+		C97C6D8B24C15AFE009BB2A4 /* ArcImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D8924C15AFE009BB2A4 /* ArcImageTableViewCell.xib */; };
+		C97C6D8E24C15C9F009BB2A4 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8D24C15C9F009BB2A4 /* UIImageView+Extension.swift */; };
+		C97C6D9024C161E1009BB2A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8F24C161E0009BB2A4 /* UIView+Extension.swift */; };
+		C97C6D9424C16244009BB2A4 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D9324C16244009BB2A4 /* WebViewViewController.swift */; };
 		F6C7BA6F5EC93D171AD985A9 /* Pods_ArcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1960AE869142B132F6FF3EA9 /* Pods_ArcBlock.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +60,7 @@
 		BBA33B0AAB2A414BCD9CA16B /* Pods-ArcBlockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlockTests.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlockTests/Pods-ArcBlockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C97C6D2724C14C7F009BB2A4 /* ArcBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C97C6D2C24C14C7F009BB2A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C97C6D2E24C14C7F009BB2A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C97C6D2E24C14C7F009BB2A4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C97C6D3124C14C7F009BB2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97C6D3324C14C80009BB2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C97C6D3624C14C80009BB2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +71,20 @@
 		C97C6D4824C14C80009BB2A4 /* ArcBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97C6D4C24C14C80009BB2A4 /* ArcBlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBlockUITests.swift; sourceTree = "<group>"; };
 		C97C6D4E24C14C80009BB2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97C6D5E24C150E0009BB2A4 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C97C6D6124C150EF009BB2A4 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
+		C97C6D6924C15464009BB2A4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
+		C97C6D6B24C15492009BB2A4 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		C97C6D6D24C154A5009BB2A4 /* ArcItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcItem.swift; sourceTree = "<group>"; };
+		C97C6D8024C1598B009BB2A4 /* ArcTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTextTableViewCell.swift; sourceTree = "<group>"; };
+		C97C6D8124C1598B009BB2A4 /* ArcTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcTextTableViewCell.xib; sourceTree = "<group>"; };
+		C97C6D8424C15998009BB2A4 /* ArcLinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLinkTableViewCell.swift; sourceTree = "<group>"; };
+		C97C6D8524C15998009BB2A4 /* ArcLinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcLinkTableViewCell.xib; sourceTree = "<group>"; };
+		C97C6D8824C15AFE009BB2A4 /* ArcImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcImageTableViewCell.swift; sourceTree = "<group>"; };
+		C97C6D8924C15AFE009BB2A4 /* ArcImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcImageTableViewCell.xib; sourceTree = "<group>"; };
+		C97C6D8D24C15C9F009BB2A4 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C97C6D8F24C161E0009BB2A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C97C6D9324C16244009BB2A4 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		E13B7051CC8C216F8FA13DB3 /* Pods-ArcBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlock/Pods-ArcBlock.debug.xcconfig"; sourceTree = "<group>"; };
 		E99E9342C5C28200846B6C26 /* Pods-ArcBlock-ArcBlockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +127,6 @@
 				BBA33B0AAB2A414BCD9CA16B /* Pods-ArcBlockTests.debug.xcconfig */,
 				890D9E2E387C984B568716E6 /* Pods-ArcBlockTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +165,9 @@
 		C97C6D2924C14C7F009BB2A4 /* ArcBlock */ = {
 			isa = PBXGroup;
 			children = (
-				C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */,
-				C97C6D2C24C14C7F009BB2A4 /* SceneDelegate.swift */,
-				C97C6D2E24C14C7F009BB2A4 /* ViewController.swift */,
-				C97C6D3024C14C7F009BB2A4 /* Main.storyboard */,
-				C97C6D3324C14C80009BB2A4 /* Assets.xcassets */,
-				C97C6D3524C14C80009BB2A4 /* LaunchScreen.storyboard */,
-				C97C6D3824C14C80009BB2A4 /* Info.plist */,
+				C97C6D8C24C15C90009BB2A4 /* Core */,
+				C97C6D6424C151E2009BB2A4 /* Modual */,
+				C97C6D6524C151F0009BB2A4 /* System */,
 			);
 			path = ArcBlock;
 			sourceTree = "<group>";
@@ -169,6 +190,111 @@
 			path = ArcBlockUITests;
 			sourceTree = "<group>";
 		};
+		C97C6D5D24C150D5009BB2A4 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D6124C150EF009BB2A4 /* splash.json */,
+				C97C6D6024C150E4009BB2A4 /* Controller */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C97C6D6024C150E4009BB2A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D5E24C150E0009BB2A4 /* SplashViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C97C6D6424C151E2009BB2A4 /* Modual */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D6624C1542D009BB2A4 /* ArcList */,
+				C97C6D5D24C150D5009BB2A4 /* Splash */,
+			);
+			path = Modual;
+			sourceTree = "<group>";
+		};
+		C97C6D6524C151F0009BB2A4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */,
+				C97C6D3024C14C7F009BB2A4 /* Main.storyboard */,
+				C97C6D3324C14C80009BB2A4 /* Assets.xcassets */,
+				C97C6D3524C14C80009BB2A4 /* LaunchScreen.storyboard */,
+				C97C6D3824C14C80009BB2A4 /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		C97C6D6624C1542D009BB2A4 /* ArcList */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D6F24C15755009BB2A4 /* View */,
+				C97C6D6824C15453009BB2A4 /* Model */,
+				C97C6D6724C15448009BB2A4 /* Controller */,
+			);
+			path = ArcList;
+			sourceTree = "<group>";
+		};
+		C97C6D6724C15448009BB2A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D2E24C14C7F009BB2A4 /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C97C6D6824C15453009BB2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D6924C15464009BB2A4 /* data.json */,
+				C97C6D6B24C15492009BB2A4 /* ResponseData.swift */,
+				C97C6D6D24C154A5009BB2A4 /* ArcItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C97C6D6F24C15755009BB2A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D8024C1598B009BB2A4 /* ArcTextTableViewCell.swift */,
+				C97C6D8124C1598B009BB2A4 /* ArcTextTableViewCell.xib */,
+				C97C6D8424C15998009BB2A4 /* ArcLinkTableViewCell.swift */,
+				C97C6D8524C15998009BB2A4 /* ArcLinkTableViewCell.xib */,
+				C97C6D8824C15AFE009BB2A4 /* ArcImageTableViewCell.swift */,
+				C97C6D8924C15AFE009BB2A4 /* ArcImageTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C97C6D8C24C15C90009BB2A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D9224C1622E009BB2A4 /* Web */,
+				C97C6D9124C161F2009BB2A4 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C97C6D9124C161F2009BB2A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D8D24C15C9F009BB2A4 /* UIImageView+Extension.swift */,
+				C97C6D8F24C161E0009BB2A4 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C97C6D9224C1622E009BB2A4 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6D9324C16244009BB2A4 /* WebViewViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +306,7 @@
 				C97C6D2324C14C7F009BB2A4 /* Sources */,
 				C97C6D2424C14C7F009BB2A4 /* Frameworks */,
 				C97C6D2524C14C7F009BB2A4 /* Resources */,
+				CD255189B14FAEBFF7C003EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +344,7 @@
 				C97C6D4424C14C80009BB2A4 /* Sources */,
 				C97C6D4524C14C80009BB2A4 /* Frameworks */,
 				C97C6D4624C14C80009BB2A4 /* Resources */,
+				580300621D9A235F2974FFF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +406,11 @@
 				C97C6D3724C14C80009BB2A4 /* LaunchScreen.storyboard in Resources */,
 				C97C6D3424C14C80009BB2A4 /* Assets.xcassets in Resources */,
 				C97C6D3224C14C7F009BB2A4 /* Main.storyboard in Resources */,
+				C97C6D6A24C15464009BB2A4 /* data.json in Resources */,
+				C97C6D8724C15998009BB2A4 /* ArcLinkTableViewCell.xib in Resources */,
+				C97C6D6224C150EF009BB2A4 /* splash.json in Resources */,
+				C97C6D8B24C15AFE009BB2A4 /* ArcImageTableViewCell.xib in Resources */,
+				C97C6D8324C1598B009BB2A4 /* ArcTextTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +453,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		580300621D9A235F2974FFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B669C91BC32D77E314BB02A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +490,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD255189B14FAEBFF7C003EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlock/Pods-ArcBlock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcBlock/Pods-ArcBlock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcBlock/Pods-ArcBlock-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E72995A6F9F2DCA6DFF50819 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,9 +538,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97C6D2F24C14C7F009BB2A4 /* ViewController.swift in Sources */,
+				C97C6D5F24C150E0009BB2A4 /* SplashViewController.swift in Sources */,
+				C97C6D8624C15998009BB2A4 /* ArcLinkTableViewCell.swift in Sources */,
+				C97C6D8A24C15AFE009BB2A4 /* ArcImageTableViewCell.swift in Sources */,
+				C97C6D8E24C15C9F009BB2A4 /* UIImageView+Extension.swift in Sources */,
+				C97C6D9424C16244009BB2A4 /* WebViewViewController.swift in Sources */,
+				C97C6D2F24C14C7F009BB2A4 /* ListViewController.swift in Sources */,
+				C97C6D8224C1598B009BB2A4 /* ArcTextTableViewCell.swift in Sources */,
+				C97C6D6C24C15492009BB2A4 /* ResponseData.swift in Sources */,
 				C97C6D2B24C14C7F009BB2A4 /* AppDelegate.swift in Sources */,
-				C97C6D2D24C14C7F009BB2A4 /* SceneDelegate.swift in Sources */,
+				C97C6D9024C161E1009BB2A4 /* UIView+Extension.swift in Sources */,
+				C97C6D6E24C154A5009BB2A4 /* ArcItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +723,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArcBlock/Info.plist;
+				INFOPLIST_FILE = ArcBlock/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,7 +741,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ArcBlock/Info.plist;
+				INFOPLIST_FILE = ArcBlock/System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
