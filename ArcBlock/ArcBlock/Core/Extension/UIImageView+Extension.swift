@@ -19,7 +19,7 @@ extension UIImageView {
     ///     - placeholder: You can customize your placeholder.
     /// If the image fails to load, the image view show the placeholder.
     @objc func setAvatar(with urlString: String?,
-                         placeholder: UIImage? = .init()) {
+                         placeholder: UIImage? = .placeHolder) {
         setImage(with: urlString, placeholder: placeholder)
     }
     
@@ -29,7 +29,7 @@ extension UIImageView {
     ///     - placeholder: You can customize your placeholder.
     /// If the image fails to load, the image view show the placeholder.
     @objc func setImage(with urlString: String?,
-                        placeholder: UIImage? = .init()) {
+                        placeholder: UIImage? = .placeHolder) {
         if let urlString = urlString {
             kf.setImage(with: URL(string: urlString), placeholder: placeholder)
         } else {
@@ -45,7 +45,7 @@ extension UIImageView {
     ///   - completionHandler: completionHandler
     /// If the image fails to load, the image view show the placeholder.
     @objc func setImage(with urlString: String?,
-                        placeholder: UIImage? = .init(),
+                        placeholder: UIImage? = .placeHolder,
                         progressBlock: DownloadProgressBlock? = nil,
                         completionHandler: CompletionHandler? = nil) {
         if let urlString = urlString, urlString.isEmpty == false {
@@ -58,4 +58,8 @@ extension UIImageView {
             image = placeholder
         }
     }
+}
+
+extension UIImage {
+    static let placeHolder = UIImage(named: "image001")
 }

@@ -30,6 +30,11 @@
 		C97C6D8E24C15C9F009BB2A4 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8D24C15C9F009BB2A4 /* UIImageView+Extension.swift */; };
 		C97C6D9024C161E1009BB2A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D8F24C161E0009BB2A4 /* UIView+Extension.swift */; };
 		C97C6D9424C16244009BB2A4 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D9324C16244009BB2A4 /* WebViewViewController.swift */; };
+		C97C6D9624C163D0009BB2A4 /* image001.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D9524C163D0009BB2A4 /* image001.png */; };
+		C97C6D9924C169AF009BB2A4 /* ArcMutipleImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D9724C169AF009BB2A4 /* ArcMutipleImageTableViewCell.swift */; };
+		C97C6D9A24C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D9824C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib */; };
+		C97C6D9D24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C6D9B24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift */; };
+		C97C6D9E24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97C6D9C24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib */; };
 		F6C7BA6F5EC93D171AD985A9 /* Pods_ArcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1960AE869142B132F6FF3EA9 /* Pods_ArcBlock.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +90,11 @@
 		C97C6D8D24C15C9F009BB2A4 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		C97C6D8F24C161E0009BB2A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C97C6D9324C16244009BB2A4 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		C97C6D9524C163D0009BB2A4 /* image001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image001.png; sourceTree = "<group>"; };
+		C97C6D9724C169AF009BB2A4 /* ArcMutipleImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMutipleImageTableViewCell.swift; sourceTree = "<group>"; };
+		C97C6D9824C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcMutipleImageTableViewCell.xib; sourceTree = "<group>"; };
+		C97C6D9B24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcMutipleImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C97C6D9C24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcMutipleImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		E13B7051CC8C216F8FA13DB3 /* Pods-ArcBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlock/Pods-ArcBlock.debug.xcconfig"; sourceTree = "<group>"; };
 		E99E9342C5C28200846B6C26 /* Pods-ArcBlock-ArcBlockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcBlock-ArcBlockUITests/Pods-ArcBlock-ArcBlockUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +229,7 @@
 		C97C6D6524C151F0009BB2A4 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				C97C6D9524C163D0009BB2A4 /* image001.png */,
 				C97C6D2A24C14C7F009BB2A4 /* AppDelegate.swift */,
 				C97C6D3024C14C7F009BB2A4 /* Main.storyboard */,
 				C97C6D3324C14C80009BB2A4 /* Assets.xcassets */,
@@ -265,6 +276,10 @@
 				C97C6D8524C15998009BB2A4 /* ArcLinkTableViewCell.xib */,
 				C97C6D8824C15AFE009BB2A4 /* ArcImageTableViewCell.swift */,
 				C97C6D8924C15AFE009BB2A4 /* ArcImageTableViewCell.xib */,
+				C97C6D9724C169AF009BB2A4 /* ArcMutipleImageTableViewCell.swift */,
+				C97C6D9824C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib */,
+				C97C6D9B24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift */,
+				C97C6D9C24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97C6D9624C163D0009BB2A4 /* image001.png in Resources */,
 				C97C6D3724C14C80009BB2A4 /* LaunchScreen.storyboard in Resources */,
 				C97C6D3424C14C80009BB2A4 /* Assets.xcassets in Resources */,
 				C97C6D3224C14C7F009BB2A4 /* Main.storyboard in Resources */,
@@ -410,7 +426,9 @@
 				C97C6D8724C15998009BB2A4 /* ArcLinkTableViewCell.xib in Resources */,
 				C97C6D6224C150EF009BB2A4 /* splash.json in Resources */,
 				C97C6D8B24C15AFE009BB2A4 /* ArcImageTableViewCell.xib in Resources */,
+				C97C6D9A24C169AF009BB2A4 /* ArcMutipleImageTableViewCell.xib in Resources */,
 				C97C6D8324C1598B009BB2A4 /* ArcTextTableViewCell.xib in Resources */,
+				C97C6D9E24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C97C6D5F24C150E0009BB2A4 /* SplashViewController.swift in Sources */,
+				C97C6D9924C169AF009BB2A4 /* ArcMutipleImageTableViewCell.swift in Sources */,
 				C97C6D8624C15998009BB2A4 /* ArcLinkTableViewCell.swift in Sources */,
 				C97C6D8A24C15AFE009BB2A4 /* ArcImageTableViewCell.swift in Sources */,
 				C97C6D8E24C15C9F009BB2A4 /* UIImageView+Extension.swift in Sources */,
@@ -547,6 +566,7 @@
 				C97C6D8224C1598B009BB2A4 /* ArcTextTableViewCell.swift in Sources */,
 				C97C6D6C24C15492009BB2A4 /* ResponseData.swift in Sources */,
 				C97C6D2B24C14C7F009BB2A4 /* AppDelegate.swift in Sources */,
+				C97C6D9D24C16B02009BB2A4 /* ArcMutipleImageCollectionViewCell.swift in Sources */,
 				C97C6D9024C161E1009BB2A4 /* UIView+Extension.swift in Sources */,
 				C97C6D6E24C154A5009BB2A4 /* ArcItem.swift in Sources */,
 			);

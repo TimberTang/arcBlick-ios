@@ -45,16 +45,19 @@ class ListViewController: UITableViewController {
             return cell
         }
         if dataItem.type == .image || dataItem.type == .textImage {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: ArcImageTableViewCell.registrableReuseIdentifier) as? ArcImageTableViewCell  else {
-                return .init()
+            if dataItem.imgUrls?.count ?? 0 > 1 {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: ArcMutipleImageTableViewCell.registrableReuseIdentifier) as? ArcMutipleImageTableViewCell  else {
+                    return .init()
+                }
+                cell.config(cell: dataItem)
+                return cell
+            } else {
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: ArcImageTableViewCell.registrableReuseIdentifier) as? ArcImageTableViewCell  else {
+                    return .init()
+                }
+                cell.configCell(with: dataItem)
+                return cell
             }
-            
-            cell.backgroundColor = .blue
-            if let image = dataItem.imgUrls?.first {
-                cell.imageView?.setImage(with: image)
-            }
-            cell.textLabel?.text = dataItem.content
-            return cell
         }
             
         return .init()
@@ -94,6 +97,7 @@ fileprivate extension ListViewController {
         tableView.register(ArcTextTableViewCell.nib, forCellReuseIdentifier: ArcTextTableViewCell.registrableReuseIdentifier)
         tableView.register(ArcImageTableViewCell.nib, forCellReuseIdentifier: ArcImageTableViewCell.registrableReuseIdentifier)
         tableView.register(ArcLinkTableViewCell.nib, forCellReuseIdentifier: ArcLinkTableViewCell.registrableReuseIdentifier)
+        tableView.register(ArcMutipleImageTableViewCell.nib, forCellReuseIdentifier: ArcMutipleImageTableViewCell.registrableReuseIdentifier)
     }
 }
 

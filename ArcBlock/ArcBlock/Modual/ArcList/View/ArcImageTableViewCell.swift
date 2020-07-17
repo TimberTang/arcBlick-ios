@@ -21,7 +21,19 @@ class ArcImageTableViewCell: UITableViewCell {
     static var registrableReuseIdentifier: String {
         return "ArcImageTableViewCell"
     }
+    
 
+    @IBOutlet weak var contentImageView: UIImageView!
+    @IBOutlet weak var contentLabel: UILabel!
+    
+    
+    func configCell(with item: ArcItem) {
+        contentLabel.text = item.content
+        if let url = item.imgUrls?.first{
+            contentImageView.setImage(with: url)
+        }
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
