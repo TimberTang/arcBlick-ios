@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ArcBlock' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+  pod 'KingfisherWebP', '~> 0.7.0' ### webP image loadiner
+  pod 'SwiftMessages', '~> 8.0' #loading and toast
+  pod 'SnapKit' ## UI layout
+  pod 'lottie-ios'
+  pod 'ActiveLabel'
+  # Pods for ArcBlock
+
+  target 'ArcBlockTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ArcBlockUITests' do
+    # Pods for testing
+  end
+
+end
