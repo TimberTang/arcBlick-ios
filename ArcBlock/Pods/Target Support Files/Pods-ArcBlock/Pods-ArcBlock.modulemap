@@ -1,0 +1,6 @@
+framework module Pods_ArcBlock {
+  umbrella header "Pods-ArcBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}
